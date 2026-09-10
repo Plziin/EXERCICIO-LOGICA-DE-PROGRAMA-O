@@ -1,0 +1,21 @@
+frase = str(input("Digite uma frase: ")).strip()
+print("\nFrase:")
+print(frase)
+print("------------------")
+print("Quantidade de letras: ")
+print(len(frase))
+palavras = frase.split()
+print(f"Lista de palavras: {palavras}")
+print(f"Quantidade de palavras: {len(palavras)}")
+print(f"Primiera palavra: {palavras[0]}")
+print(f"Última palavra: {palavras[-1]}")
+
+letra = str(input("Digite uma letra: "))
+print("Quantas vez a letra aparece:")
+print(frase.count(letra))
+
+print("Frase em maiúscula: ")
+print(frase.upper())
+
+print("Frase em minúscula:")
+print(frase.lower())

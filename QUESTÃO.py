@@ -1,0 +1,16 @@
+num1 = float(input("Digite o primeiro numero:"))
+num2 = float(input("Digite o segundo numero:"))
+print("\n=== RESULTADOS DAS OPERAÇÕES ===")
+print(f"Adição (+)              : {num1 + num2}")
+print(f"Subtração (-)           : {num1 - num2}")
+print(f"Multiplicação (×)       : {num1 * num2}")
+if num2 == 0:
+    print(f" Divisão (/)           :Divisão por 0 não permitida")
+    print(f" Divisão inteira (//)  :Divisão por 0 não permitida")
+    print(f" Resto da divisão (%)  :Divisão por 0 não permitida")
+else:
+    print(f"Divisão (/) : {num1 / num2}")
+    print (f"Divisão inteira (//) : {num1 // num2}")
+    print (f" Resto da divisão (%) : {num1 % num2}")
+print (f" Potenciação (**) : {num1 ** num2}")
+print("=======================")
